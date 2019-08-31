@@ -1,5 +1,6 @@
  
-    <br><button (click) = "imc()">Calcular</button><br><br>
-    {{peso}}
-
-    {{altura}}
+    <button (click) = "imc()">Calcular</button><br><br>
+    
+    <br>
+    peso: <input type="text"[(ngModel)]="peso">
+    altura: <input type="text"[(ngModel)]="altura">

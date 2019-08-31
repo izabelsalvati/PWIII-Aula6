@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
- peso = 70
- altura = 1.70
+ peso = 70;
+ altura = 1.70;
 
 
 imc() : void{
